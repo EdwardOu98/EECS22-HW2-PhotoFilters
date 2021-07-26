@@ -1,0 +1,16 @@
+This program allows users to apply DIP to a .ppm file to modified the image. 
+There are 6 major functions in the program, which includes:
+1. LoadImage & SaveImage: this two functions are provided in the template file. 
+
+2. BlackNWhite: This function calculates the average of the R, G, B value of 
+each pixel and set the color of the pixel to the calculated average so that
+the color image will become a black and white image. 
+
+3. Edge: This function finds the edges of the image by using a given formula. 
+Depending on the difference of intensity of colors of a pixel and its 
+neighbors, the function will set the color to black, grey, or white. 
+
+4. Shuffle: This function will divides the image into 16 equal-sized sections
+and then swap the color of two random sections pixel-by-pixel. 
+
+5. TestAll: This function is used to test the three DIP functions. 
